@@ -10,14 +10,6 @@
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  /*  BORDES DE TODO */
-  /*     outline: 2px solid lime; */
-  /* #### FONDO SATURADO #### */
-  /* background: hsl(0, 100%, 50% / .1); */
-  /*  background: hsl(0, 100%, calc(50% / 10)); */
-  /**/
-  /* background: rgba(255, 0, 0, 0.1); // Rojo con 10% de opacidad */
-  /* background: hsl(0, 100%, 5%);  // 50% / 10 = 5% */
 }
 
 html {
@@ -224,7 +216,7 @@ body {
   display: none;
   opacity: 0;
   /* visibility: hidden; */
-  transition: opacity 2s ease, visibility 1s ease;
+  transition: opacity 1s ease, visibility 1s ease;
   /* display: grid; */
   height: 74vh;
   align-items: center;
@@ -280,6 +272,7 @@ body {
     background-color: #242742;
   }
   .layout {
+    max-height: 64.1rem;
     display: grid;
     padding: 4rem;
     border-radius: 1.6rem;

@@ -148,7 +148,7 @@ body {
   display: none;
   opacity: 0;
   /* visibility: hidden; */
-  transition: opacity 2s ease, visibility 1s ease;
+  transition: opacity 1s ease, visibility 1s ease;
   /* display: grid; */
   height:74vh;
   align-items: center;
@@ -188,6 +188,7 @@ body {
     background-color: $blue-800-color;
   }
   .layout {
+    max-height: 64.1rem;
     display: grid;
     padding: 4rem;
     border-radius: 1.6rem;
