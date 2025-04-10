@@ -181,7 +181,7 @@ body {
 .form__input-error {
   border: 1px solid #ff6155;
   background-color: rgba(255, 97, 85, 0.1568627451);
-  transition: border 1s ease, background-color 1s ease;
+  transition: border 0.5 ease, background-color 0.5s ease;
 }
 
 .form__input-error::placeholder {
@@ -221,12 +221,22 @@ body {
 
 /* ##### Sign-up form end ###### */
 .layout__success {
-  display: grid;
+  display: none;
+  opacity: 0;
+  /* visibility: hidden; */
+  transition: opacity 1s ease, visibility 1s ease;
+  /* display: grid; */
   height: 74vh;
   align-items: center;
   gap: 3.2rem;
   background-color: #ffffff;
   margin: 17.7vh 2.4rem 8.3vh 2.4rem;
+}
+
+.layout__success--visible {
+  display: grid !important;
+  opacity: 1;
+  /* visibility: visible; */
 }
 
 .success__title {
