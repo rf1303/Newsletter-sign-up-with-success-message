@@ -28,14 +28,14 @@ document.addEventListener('DOMContentLoaded', function () {
             formMailError.style.display = "none";
             formInput.classList.remove('form__input-error');
             layoutForm.classList.add('display-none');
-            layoutSuccess.classList.remove('display-none');   
+            /* layoutSuccess.classList.remove('display-none');    */
             layoutSuccess.classList.add('layout__success--visible');
         }
     }); 
 
     buttonSuccess.addEventListener('click', () => {
         layoutSuccess.classList.remove('layout__success--visible');
-        layoutSuccess.classList.add('display-none');   
+        /* layoutSuccess.classList.add('display-none');    */
         layoutForm.classList.remove('display-none');
         formContainer.submit(); 
         formInput.value = '';

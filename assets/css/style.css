@@ -224,7 +224,7 @@ body {
   display: none;
   opacity: 0;
   /* visibility: hidden; */
-  transition: opacity 1s ease, visibility 1s ease;
+  transition: opacity 2s ease, visibility 1s ease;
   /* display: grid; */
   height: 74vh;
   align-items: center;
