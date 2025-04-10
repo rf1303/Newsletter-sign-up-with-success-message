@@ -296,6 +296,9 @@ body {
   .layout__head {
     padding-inline: 0;
   }
+  .head__list {
+    width: 37.6rem;
+  }
   /* ### LAYOUT SUCCESS #### */
   .layout__success {
     width: 50.2rem;
