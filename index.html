@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/js/main.js"></script>
+    <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+    
+</head>
+<body>
+<!-- Sign-up form start -->
+    <section class="layout"> 
+        <figure class="layout__images"> 
+            <div class="images__head--desktop">
+               <img class="image__desktop" src="./assets/images/illustration-sign-up-desktop.svg" alt="images desktop">  
+            </div>    
+            <div class="images__head--mobile">
+                <img class="image__mobile" src="./assets/images/illustration-sign-up-mobile.svg" alt="images mobile">  
+            </div>    
+        </figure>    
+        <main class="layout__container"> 
+            <header class="layout__head"> 
+                <h1 class="head__title">Stay updated!</h1>
+                <p class="head__subtitle"> 
+                    Join 60,000+ product managers receiving monthly updates on:
+                </p>
+                <ul class="head__list"> 
+                   <li class="list__item"> 
+                        <img class="item_check" src="./assets/images/icon-list.svg" alt="icon list stay update">     
+                        Product discovery and building what matters
+                   </li> 
+                   <li class="list__item"> 
+                        <img class="item_check" src="./assets/images/icon-list.svg" alt="icon list stay update">     
+                        Measuring to ensure updates are a success
+                   </li> 
+                   <li class="list__item"> 
+                        <img class="item_check" src="./assets/images/icon-list.svg" alt="icon list stay update">     
+                        And much more!
+                   </li> 
+                </ul>
+            </header>
+            <section class="layout__form"> 
+               <form class="form__container" novalidate> 
+                    <div class="form__header-mail"> 
+                        <label for="mail" class="form__mail">Email address</label> 
+                        <span class="form__mail-error">Valid email required</span>
+                    </div>     
+                    <input type="email" name="mail"  class="form__input" placeholder="email@company.com" required>
+                    <button class="form__buttons" type="submit">Subscribe to monthly newsletter</button>
+               </form> 
+            </section>
+        </main>     
+            
+<!-- Sign-up form end -->
+    </section>
+
+<!-- Success message start -->
+    <section class="layout__success display-none"> 
+        <img class="success__images" src="./assets/images/icon-success.svg" alt=""> 
+
+        <h2 class="success__title">Thanks for subscribing!</h2>
+
+        <p class="success__lead"> 
+            A confirmation email has been sent to ash@loremcompany.com. 
+            Please open it and click the button inside to confirm your subscription.
+        </p>
+        
+        <div class="success__buttons"> 
+            <button type="button" class="buttons__message">Dismiss message</button>
+        </div>
+    </section>
+<!-- Success message end -->
+</body>
+</html>
